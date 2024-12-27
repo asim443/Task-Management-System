@@ -9,7 +9,7 @@ PHP
 # How to use the project and how to access the database?
 This project uses the database mysql through xampp control panel. 
 This project contains three tables which are "users", "tasks" and "completedtasks".
-# Now the users table will made like this:
+# the users table will made like this:
 create table users(
 userid int primary key auto_increment,
 fullname varchar(255),
@@ -35,5 +35,4 @@ duedate date,
 userid int,
 employeeid int,
 foreign key(employeeid) references users(userid));
-Now after making these tables you should make the folder and place all the files on that folder and then paste the folder into the folder of "htdocs" in xampp folder.
-After that run the server and start using.
+# Now after making these tables you should make the folder and place all the files on that folder and then paste the folder into the folder of "htdocs" in xampp folder. After that run the server and start using.
