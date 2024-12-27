@@ -1,0 +1,27 @@
+body{
+    background-color: #4C1F7A;
+    color:white;
+}
+.login-form{
+    margin:auto auto;
+    height:500px;
+    width:500px;
+    margin-top: 200px;
+}
+.heading{
+    text-align:center;
+    font-size: xx-large;
+}
+.login-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+a{
+    color:white;
+    text-align: center;
+    width:100%;
+    display: inline-block;
+    margin-bottom: 4px;
+}
